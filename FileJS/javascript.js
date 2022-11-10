@@ -1,0 +1,1 @@
+document.write("Seorang mahasiswa Institut Teknologi Perusahaan Listrik Negara yang memiliki motivasi yang tinggi, Andre Zuliani yang kerap disapa Andre merupakan pria kelahiran 18 juni 2003 di tangerang yang bercita-cita menjadi dosen dengan motivasi yang tinggi");

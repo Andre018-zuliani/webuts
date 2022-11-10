@@ -1,0 +1,1 @@
+document.write("portofolio yang saya buat merupakan desain photografer");

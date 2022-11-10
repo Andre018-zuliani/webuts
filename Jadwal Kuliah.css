@@ -1,0 +1,220 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: indigo;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    margin: center;
+    font-size: 30px;
+    font-weight: 50px;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#dd8b07;
+    z-index: -1px;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    display: inline-block;
+    color: brown;
+    font-family: 'releway', sans-serif;
+    padding: 15px 15px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:green;
+    margin-block-end: auto;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: blue;
+    font font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    z-index: -1;
+}
+
+section img {
+    border: 100px;
+    width: 200px;
+    height: 250px;
+    z-index: -1px;
+    text-align: center;
+    padding: 50px;
+}
+
+.kolom {
+    margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: bold;
+    color: orange;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: orange;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+}
+
+.table {
+    cellpadding: 20;
+}
+
+h1 {
+    font-family: 'comic sans me' ;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: green;
+    width: 90%;
+    line-height: 50px;
+    text-align: center;
+}
+
+a. tbl-biru {
+    background: orange;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+a. tbl-biru:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.footer {
+    position: -webkit-sticky;
+    bottom:0;
+    width:100%;
+    height:60px;  
+    text-align: center;
+ }
+
+ @media screen and (max-width: 991.98px) {
+    . .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display:block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        text-align: center;
+        margin:0;
+}
+
+    nav .menu ul{
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li{
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img{
+        display: block;
+        width: 30%;
+        padding: 50px;
+        height: auto;
+    }
+
+    h2 {
+        display: block;
+        -ms-text-justify: auto;
+        width: 30%;
+        padding: 50x;
+        text-align: justify;
+    }
+
+    p {
+        display: block;
+        -ms-text-justify: auto;
+        width: 30%;
+        padding: 50x;
+        text-align: justify;
+    }
+
+    .footer {
+        display: block;
+        -ms-text-justify: auto;
+        width: 30%;
+        padding: 50x;
+        text-align: justify;
+    }
+ }

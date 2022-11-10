@@ -1,0 +1,1 @@
+document.write("Saya Mahasiswa ITPLN");

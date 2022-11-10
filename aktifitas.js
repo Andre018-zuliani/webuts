@@ -1,0 +1,1 @@
+document.write("Saya Beraktifitas kegiatan di kampus sesuai minat saya di R-Tecs ITPLN bagian Teknik Robotika");

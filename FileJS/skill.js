@@ -1,0 +1,1 @@
+document.write("Skill yang saya miliki kemampuan berkomunikasi dengan baik serta mampu memecahkan masalah secara individu atau kelompok");
